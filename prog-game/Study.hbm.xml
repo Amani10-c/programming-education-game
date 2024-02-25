@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 28-May-2023 04:03:50 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="ap_project_.Study" table="study" catalog="octocode" optimistic-lock="version">
+        <composite-id name="id" class="ap_project_.StudyId">
+            <key-property name="pid" type="int">
+                <column name="PId" />
+            </key-property>
+            <key-property name="slevel" type="int">
+                <column name="SLevel" />
+            </key-property>
+        </composite-id>
+        <property name="srate" type="java.lang.Integer">
+            <column name="SRate" />
+        </property>
+        <property name="scomment" type="string">
+            <column name="SComment" length="200" />
+        </property>
+    </class>
+</hibernate-mapping>

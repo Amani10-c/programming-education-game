@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 28-May-2023 04:03:50 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="ap_project_.Player" table="player" catalog="octocode" optimistic-lock="version">
+        <id name="pid" type="int">
+            <column name="Pid" />
+            <generator class="assigned" />
+        </id>
+        <property name="pname" type="string">
+            <column name="PName" length="45" />
+        </property>
+        <property name="page" type="java.lang.Integer">
+            <column name="PAge" />
+        </property>
+        <property name="password" type="string">
+            <column name="Password" length="45" />
+        </property>
+        <property name="pscore" type="java.lang.Integer">
+            <column name="PScore" />
+        </property>
+        <property name="plevel" type="java.lang.Integer">
+            <column name="PLevel" />
+        </property>
+    </class>
+</hibernate-mapping>

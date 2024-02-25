@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="445.0" prefWidth="600.0" style="-fx-background-color: #F6E0E0;;;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project_.Controller_connect_tag_lv2">
+   <children>
+
+       <GridPane blendMode="SRC_ATOP" layoutX="40.0" layoutY="124.0" prefHeight="292.0" prefWidth="301.0" style="-fx-background-color: white;">
+              <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="60.0" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="60.0" minWidth="10.0" prefWidth="70.0" />
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="60.0" minWidth="0.0" prefWidth="70.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="60.0" minWidth="0.0" prefWidth="70.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="60.0" minWidth="10.0" prefWidth="70.0" />
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="60.0" minWidth="10.0" prefWidth="70.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints />
+                  <RowConstraints />
+                  <RowConstraints maxHeight="117.0" minHeight="0.0" prefHeight="48.666656494140625" valignment="CENTER" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="117.0" minHeight="10.0" prefHeight="54.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="137.33334350585938" minHeight="6.0" prefHeight="51.666656494140625" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="140.0" minHeight="10.0" prefHeight="51.666656494140625" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="140.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="lvl21btn28" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn28" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                  <Button fx:id="lvl21btn14" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn14" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" textFill="#090909" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Button fx:id="lvl21btn15" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn15" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Button fx:id="lvl21btn18" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn18" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+                  <Button fx:id="lvl21btn20" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn20" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Button fx:id="lvl21btn21" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn21" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <Button fx:id="lvl21btn24" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn24" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <Button fx:id="lvl21btn26" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn26" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Button fx:id="lvl21btn27" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn27" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <Button fx:id="lvl21btn23" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn23" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                  <Button fx:id="lvl21btn30" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn30" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                  <Button fx:id="lvl21btn32" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn32" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <Button fx:id="lvl21btn33" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn33" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                  <Button fx:id="lvl21btn36" alignment="CENTER" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn36" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                  <Button fx:id="lvl21btn9" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn9" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" textFill="#363434" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Button fx:id="lvl21btn10" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn10" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <Button fx:id="lvl21btn11" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn11" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                  <Button fx:id="lvl21btn16" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn16" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <Button fx:id="lvl21btn22" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn22" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <Button fx:id="lvl21btn29" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn29" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                  <Button fx:id="lvl21btn34" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn34" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" textFill="#d25100" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                  <Button fx:id="lvl21btn35" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn35" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                  <Button fx:id="lvl21btn17" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn17" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <Button fx:id="lvl21btn12" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn12" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                  <Circle cache="true" cacheHint="SPEED" disable="true" fill="#8d631c" radius="20.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" GridPane.rowIndex="3">
+               <effect>
+                  <Glow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </Glow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Circle>
+                  <Circle cache="true" cacheHint="SPEED" disable="true" fill="#8d631c" radius="20.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <effect>
+                  <Glow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </Glow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Circle>
+                  <Circle cache="true" cacheHint="SPEED" disable="true" fill="#5d71f4" radius="20.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <effect>
+                  <Glow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </Glow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Circle>
+                  <Circle cache="true" cacheHint="SPEED" disable="true" fill="#5d71f4" radius="20.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <effect>
+                  <Glow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </Glow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Circle>
+                  <Circle cache="true" cacheHint="SPEED" disable="true" fill="#ff8be6" radius="20.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" GridPane.rowIndex="4">
+               <effect>
+                  <Glow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </Glow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Circle>
+                  <Circle cache="true" cacheHint="SPEED" disable="true" fill="#fa8ce4" radius="20.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <effect>
+                  <Glow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </Glow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Circle>
+                  <Circle cache="true" cacheHint="SPEED" disable="true" fill="#d25100" radius="20.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <effect>
+                  <Glow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </Glow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Circle>
+                  <Circle cache="true" cacheHint="SPEED" disable="true" fill="#d25100" radius="20.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <effect>
+                  <Glow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </Glow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Circle>
+                  <Circle cache="true" cacheHint="SPEED" disable="true" fill="#74207a" radius="20.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <effect>
+                  <Glow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </Glow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Circle>
+                  <Circle cache="true" cacheHint="SPEED" disable="true" fill="#74207a" radius="20.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <effect>
+                  <Glow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </Glow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Circle>
+                  <Label prefHeight="28.0" prefWidth="41.0" text="&lt;textarea&gt;" textAlignment="CENTER" textFill="#fffdfd" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="8.0" />
+                     </font>
+                  </Label>
+                  <Label text="&lt;/textarea&gt;" textAlignment="CENTER" textFill="#fffdfd" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="8.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="CENTER" prefHeight="17.0" prefWidth="37.0" text=" &lt;ul&gt;" textAlignment="CENTER" textFill="#fffdfd" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Label text="&lt;/ul&gt;" textAlignment="CENTER" textFill="#fffdfd" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <Label text="&lt;html&gt;" textAlignment="CENTER" textFill="#fffdfd" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label text="&lt;/html&gt;" textAlignment="CENTER" textFill="#fffdfd" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label text="&lt;li&gt;" textAlignment="CENTER" textFill="#fffdfd" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                  <Label text="&lt;/li&gt;" textAlignment="CENTER" textFill="#fffdfd" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                  <Label text="&lt;body&gt;" textAlignment="CENTER" textFill="#fffdfd" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label text="&lt;/body&gt;" textAlignment="CENTER" textFill="#fffdfd" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="9.0" />
+                     </font>
+                  </Label>
+            <Button fx:id="lvl21btn8" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn8" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Circle cache="true" cacheHint="SPEED" disable="true" fill="#77c0aa" radius="20.0" smooth="false" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <effect>
+                  <Blend>
+                     <topInput>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </topInput>
+                  </Blend>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Circle>
+                  <Label cache="true" style="-fx-border-width: 2px; -fx-font: Eras Bold ITC;" text="&lt;label&gt;" textAlignment="CENTER" textFill="#fffdfd" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+            <Circle cache="true" cacheHint="SPEED" disable="true" fill="#77c0aa" radius="20.0" smooth="false" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <effect>
+                  <Blend>
+                     <topInput>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </topInput>
+                  </Blend>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Circle>
+                  <Label text="&lt;/label&gt;" textAlignment="CENTER" textFill="#fffdfd" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+            <Button fx:id="lvl21btn4" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn4" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" textFill="#363434" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="lvl21btn7" blendMode="MULTIPLY" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn7" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" textFill="#363434" GridPane.rowIndex="2" />
+            <Button fx:id="lvl21btn5" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn5" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" textFill="#363434" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button fx:id="lvl21btn13" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn13" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" textFill="#363434" GridPane.rowIndex="3" />
+            <Button fx:id="lvl21btn31" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn31" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" textFill="#363434" GridPane.rowIndex="6" />
+            <Button fx:id="lvl21btn6" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn6" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" textFill="#363434" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button fx:id="lvl21btn3" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn3" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" textFill="#363434" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Circle cache="true" cacheHint="SPEED" disable="true" fill="#4a769a" radius="20.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <effect>
+                  <Glow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </Glow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Circle>
+            <Circle cache="true" cacheHint="SPEED" disable="true" fill="#4a769a" radius="20.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <effect>
+                  <Glow>
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </Glow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Circle>
+            <Label text="&lt;/ol&gt;" textAlignment="CENTER" textFill="#fffdfd" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Label text="&lt;ol&gt;" textAlignment="CENTER" textFill="#fffdfd" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Button fx:id="lvl21btn1" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn1" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" textFill="#363434" GridPane.rowIndex="1" />
+            <Button fx:id="lvl21btn19" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn19" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" textFill="#363434" GridPane.rowIndex="4" />
+            <Button fx:id="lvl21btn2" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn2" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" textFill="#363434" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Line fx:id="lv2textarea_L4" endX="-146.15673828125" endY="0.7928476333618164" startX="-99.46482849121094" startY="0.7928932309150696" stroke="#8d631c" strokeLineCap="ROUND" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Line fx:id="lv2textarea_L1" endX="-101.6213150024414" endY="42.43000793457031" startX="-101.32841491699219" startY="0.7252283096313477" stroke="#8d631c" strokeLineCap="ROUND" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" GridPane.rowIndex="2" />
+            <Line fx:id="lv2ol_L8" endX="92.8057861328125" endY="0.29289373755455017" startX="41.63910675048828" startY="0.7928932309150696" stroke="#4a769a" strokeLineCap="ROUND" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Line fx:id="lv2label_L1" endX="99.99659729003906" endY="0.7928932309150696" fill="#77c0aa00" startX="50.49659729003906" startY="0.7928932309150696" stroke="#77c0aa" strokeLineCap="ROUND" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Line fx:id="lv2label_L2" endX="99.85334014892578" endY="0.7928932309150696" startX="49.35334014892578" startY="0.7928932309150696" stroke="#77c0aa" strokeLineCap="ROUND" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Line fx:id="lv2ol_L3" endX="-44.3134765625" startX="-95.8577880859375" stroke="#4a769a" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Line fx:id="lv2ol_L4" endX="-169.52767944335938" endY="-0.6666457056999207" startX="-73.40094757080078" startY="1.1761982932512183E-5" stroke="#4a769a" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Line fx:id="lv2li_L3" endX="100.0" startX="51.21600341796875" stroke="#b54905" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Line fx:id="lv2li_L4" endX="104.14959716796875" endY="0.2928932309150696" startX="54.856719970703125" stroke="#b54905" strokeLineCap="ROUND" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Line fx:id="lv2ul_L4" endX="-48.399322509765625" startX="-100.0" stroke="#4759ce" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Line fx:id="lv2ul_L1" endX="100.0" startX="100.0" startY="-47.336883544921875" stroke="#4759ce" strokeLineCap="ROUND" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button fx:id="lvl21btn25" blendMode="MULTIPLY" cache="true" cacheHint="SPEED" mnemonicParsing="false" onAction="#lvl21btn25" prefHeight="60.0" prefWidth="70.0" style="-fx-background-color: #ECF1F0; -fx-alignment: center; -fx-border-style: dashed; -fx-border-color: #AEB0B4;" textFill="#363434" GridPane.rowIndex="5" />
+            <Line fx:id="lv2body_L1" endX="-48.399322509765625" startX="-48.399322509765625" startY="-44.49095153808594" stroke="#fa8ce4" strokeLineCap="ROUND" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" GridPane.rowIndex="5" />
+               </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+            </GridPane>
+      <ImageView fitHeight="90.0" fitWidth="102.0" layoutX="7.0" layoutY="414.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cubes.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="220.0" layoutX="221.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@result.png" />
+         </image>
+      </ImageView>
+            <Pane layoutX="361.0" layoutY="125.0" prefHeight="292.0" prefWidth="215.0" style="-fx-background-color: #FFF0F0;">
+         <children>
+            <Label layoutX="2.0" layoutY="7.0" text="&lt;!DOCTYPE html&gt;" textFill="#0b63a1" />
+            <Label fx:id="lvl2headOpn" layoutX="30.0" layoutY="47.0" text="&lt;head&gt;" textFill="#5d71f4" visible="false" />
+            <Label fx:id="lvl2headCls" layoutX="30.0" layoutY="83.0" text="&lt;/head&gt;" textFill="#5d71f4" visible="false" />
+            <Label fx:id="lvl2titleOpn" layoutX="51.0" layoutY="65.0" text="&lt;title&gt;" textFill="#77c0aa" visible="false" />
+            <Label fx:id="lvl2titleCls" layoutX="166.0" layoutY="65.0" text="&lt;/title&gt;" textFill="#77c0aa" visible="false" />
+            <Label fx:id="lvl2bodyOpn" layoutX="35.0" layoutY="103.0" text="&lt;body&gt;" textFill="#ff8be6" visible="false" />
+            <Label fx:id="lvl2bodyCls" layoutX="38.0" layoutY="256.0" text="&lt;/body&gt;" textFill="#ff8be6" visible="false" />
+            <Label fx:id="lvl2htmlCls" layoutX="15.0" layoutY="274.0" text="&lt;/html&gt;" textFill="#74207a" visible="false" />
+            <Label fx:id="lvl2htmlOpn" layoutX="18.0" layoutY="30.0" text="&lt;html&gt;" textFill="#74207a" visible="false" />
+            <Label fx:id="lvl2labelOpn" layoutX="48.0" layoutY="123.0" text="&lt;label&gt;" textFill="#77c0aa" visible="false" />
+            <Label fx:id="lvl2textareaOpn" layoutX="48.0" layoutY="141.0" text="&lt;textarea&gt;" textFill="#8d631c" visible="false" />
+            <Label fx:id="lvl2labelCls" layoutX="165.0" layoutY="122.0" text="&lt;/label&gt;" textFill="#77c0aa" visible="false" />
+            <Label fx:id="lvl2textareaCls" layoutX="150.0" layoutY="140.0" text="&lt;/textarea&gt;" textFill="#8d631c" visible="false" />
+            <Label fx:id="lvl2olOpn" layoutX="52.0" layoutY="159.0" text="&lt;ol&gt;" textFill="#4a769a" visible="false" />
+            <Label fx:id="lvl2olCls" layoutX="55.0" layoutY="192.0" text="&lt;/ol&gt;" textFill="#4a769a" visible="false" />
+            <Label fx:id="lvl2li1Opn" layoutX="74.0" layoutY="173.0" text="&lt;li&gt;" textFill="#b54905" visible="false" />
+            <Label fx:id="lvl2li1Cls" layoutX="174.0" layoutY="173.0" text="&lt;/li&gt;" textFill="#b54905" visible="false" />
+            <Label fx:id="lvl2ulOpn" layoutX="58.0" layoutY="209.0" text="&lt;ul&gt;" textFill="#4759ce" visible="false" />
+            <Label fx:id="lvl2ulCls" layoutX="58.0" layoutY="240.0" text="&lt;/ul&gt;" textFill="#4759ce" visible="false" />
+            <Label fx:id="lvl2li2Opn" layoutX="79.0" layoutY="221.0" text="&lt;li&gt;" textFill="#b54905" visible="false" />
+            <Label fx:id="lvl2li2Cls" layoutX="178.0" layoutY="219.0" text="&lt;/li&gt;" textFill="#b54905" visible="false" />
+            <ImageView fitHeight="71.0" fitWidth="85.0" layoutX="158.0" layoutY="-21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@connectedTagsLogo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Line fx:id="lv2textarea_L3" endX="-241.25271606445312" endY="85.90628051757812" layoutX="302.0" layoutY="65.0" startX="-207.7137451171875" startY="85.90628051757812" stroke="#8d631c" strokeLineCap="BUTT" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="lv2textarea_L2" endX="-244.0" endY="71.0" layoutX="309.5" layoutY="76.0" startX="-244.0" startY="105.73333740234375" stroke="#8d631c" strokeLineCap="BUTT" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="lv2ul_L3" endX="142.23602294921875" endY="-6.538726806640625" layoutX="-5.0" layoutY="352.5" startX="122.66667938232422" startY="-6.538726806640625" stroke="#4759ce" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="lv2ul_L2" endX="77.8820571899414" endY="28.266357421875" layoutX="38.0" layoutY="294.0" startX="78.00000762939453" startY="52.0" stroke="#4759ce" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="lv2ul_L5" endX="-189.78175354003906" endY="-100.94400024414062" layoutX="405.0" layoutY="447.0" startX="-213.70838928222656" startY="-100.94400024414062" stroke="#4759ce" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="lv2ul_L6" endX="-183.27169799804688" endY="-91.53811645507812" layoutX="398.5" layoutY="435.0" startX="-183.2716827392578" startY="-112.33334350585938" stroke="#4759ce" strokeLineCap="ROUND" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="lv2body_L3" endX="-14.999984741210938" endY="-2.0" layoutX="106.0" layoutY="395.0" startX="-39.86695861816406" startY="-2.0" stroke="#fa8ce4" strokeLineCap="ROUND" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="lv2body_L2" endX="-11.866958618164062" endY="-25.888275146484375" layoutX="77.0" layoutY="419.0" startX="-11.866958618164062" startY="-49.81488037109375" stroke="#fa8ce4" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="lv2ol_L2" endX="-30.262054443359375" endY="160.99830627441406" layoutX="221.0" layoutY="88.0" startX="-52.93330383300781" startY="160.99830627441406" stroke="#4a769a" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="lv2ol_L1" endX="-21.333343505859375" endY="153.6666717529297" layoutX="189.0" layoutY="96.0" startX="-21.0" startY="176.66668701171875" stroke="#4a769a" strokeLineCap="ROUND" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="lv2ol_L5" endX="95.5" endY="154.99998474121094" layoutX="225.0" layoutY="94.0" startX="95.49996948242188" startY="94.33332824707031" stroke="#4a769a" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="lv2ol_L6" endX="-27.666656494140625" endY="33.0" layoutX="348.0" layoutY="119.0" startX="-27.666656494140625" startY="61.0" stroke="#4a769a" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="lv2ol_L7" endX="-53.666656494140625" endY="37.0" layoutX="374.0" layoutY="114.0" startX="-79.33334350585938" startY="37.0" stroke="#4a769a" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="lv2li_L2" endX="91.33096313476562" endY="-32.874847412109375" layoutX="227.0" layoutY="425.75" startX="67.34408569335938" startY="-32.874847412109375" stroke="#b54905" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="lv2li_L1" endX="209.5" endY="270.0000305175781" layoutX="113.0" layoutY="104.0" startX="209.5" startY="288.6666564941406" stroke="#b54905" strokeLineCap="ROUND" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="lv2html_L1" endX="176.15792846679688" endY="215.02932739257812" layoutX="116.0" layoutY="84.0" startX="149.50399780273438" startY="215.02932739257812" stroke="#74207a" strokeLineCap="ROUND" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" />
+      <Line fx:id="lv2html_L2" endX="150.1253662109375" endY="270.66668701171875" layoutX="114.0" layoutY="52.0" startX="150.1253662109375" startY="247.48886108398438" stroke="#74207a" strokeLineCap="ROUND" strokeMiterLimit="0.0" strokeWidth="10.0" visible="false" />
+      <Label fx:id="lv2_score" layoutX="313.0" layoutY="445.0" prefHeight="37.0" prefWidth="74.0" textFill="#77c0aa">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <ImageView fitHeight="274.0" fitWidth="349.0" layoutX="127.0" layoutY="-140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@connect%20tags.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="108.0" layoutX="252.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@OctoCodeLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="97.0" fitWidth="116.0" layoutX="409.0" layoutY="-20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Score.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="score_label_level_page" layoutX="513.0" layoutY="16.0" prefHeight="45.0" prefWidth="61.0" textFill="#ffce38">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="81.0" fitWidth="97.0" layoutX="63.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@level.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="level_label_level_page" layoutX="166.0" layoutY="17.0" prefHeight="45.0" prefWidth="61.0" textFill="#ffce38">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="31.0" fitWidth="43.0" layoutX="128.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@backIcon.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="130.0" layoutY="444.0" mnemonicParsing="false" onAction="#lvl2ConnectTagBackBtn" opacity="0.01" prefHeight="48.0" prefWidth="43.0" text="Button" />
+      <Button layoutX="515.0" layoutY="451.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="62.0" />
+      <ImageView fitHeight="71.0" fitWidth="74.0" layoutX="510.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@finish_1.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="516.0" layoutY="451.0" mnemonicParsing="false" onAction="#lvl2ConnectTagFinishBtn" opacity="0.02" prefHeight="29.0" prefWidth="62.0" />
+      
+   </children>
+</AnchorPane>

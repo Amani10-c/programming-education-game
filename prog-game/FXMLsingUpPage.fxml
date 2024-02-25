@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #F6E0E0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project_.ControllerSingUp">
+   <children>
+      <Pane layoutX="91.0" layoutY="135.0" prefHeight="275.0" prefWidth="431.0" style="-fx-background-color: #FFECEC;">
+         <children>
+            <ImageView fitHeight="198.0" fitWidth="234.0" layoutX="16.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@sin%20up%20lebel.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="signGName" layoutX="258.0" layoutY="27.0" />
+            <TextField fx:id="signAge" layoutX="259.0" layoutY="70.0" />
+            <TextField fx:id="signPassword" layoutX="260.0" layoutY="121.0" />
+            <TextField fx:id="signPConfirm" layoutX="261.0" layoutY="165.0" />
+            <Label fx:id="signUpLabel" layoutX="29.0" layoutY="199.0" prefHeight="33.0" prefWidth="375.0" textAlignment="CENTER" textFill="#77c0aa">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fitHeight="121.0" fitWidth="143.0" layoutX="14.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cubes.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="273.0" fitWidth="319.0" layoutX="146.0" layoutY="-20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@OctoCodeName.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="97.0" fitWidth="117.0" layoutX="245.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@OctoCodeLogo.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="201.0" layoutY="393.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="105.0" style="-fx-background-color: #C36D6A;" textAlignment="CENTER" textFill="WHITE">
+         <effect>
+            <Lighting diffuseConstant="1.84" specularConstant="0.91" specularExponent="21.83" surfaceScale="2.19">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <ImageView fitHeight="59.0" fitWidth="80.0" layoutX="219.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bback.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="BackBtm_singUpPage" layoutX="201.0" layoutY="391.0" mnemonicParsing="false" onAction="#BackBtm_singUpPage" opacity="0.09" prefHeight="47.0" prefWidth="105.0" />
+      <Button layoutX="319.0" layoutY="393.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="105.0" style="-fx-background-color: #C36D6A;" textAlignment="CENTER" textFill="WHITE">
+         <effect>
+            <Lighting diffuseConstant="1.84" specularConstant="0.91" specularExponent="21.83" surfaceScale="2.19">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <ImageView fitHeight="87.0" fitWidth="114.0" layoutX="319.0" layoutY="348.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@singUp.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="singUpSingUpPageBtm" layoutX="319.0" layoutY="393.0" mnemonicParsing="false" onAction="#singUpSingUpPage" opacity="0.06" prefHeight="41.0" prefWidth="105.0" style="-fx-background-color: #C36D6A;" textAlignment="CENTER" textFill="WHITE">
+         <effect>
+            <Lighting diffuseConstant="1.84" specularConstant="0.91" specularExponent="21.83" surfaceScale="2.19">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

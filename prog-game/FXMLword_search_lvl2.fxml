@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #F6E0E0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project_.Controller_word_search_lv2">
+<children>
+      <ImageView fitHeight="96.0" fitWidth="103.0" layoutX="24.0" layoutY="399.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cubes.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="380.0" layoutY="126.0" prefHeight="245.0" prefWidth="205.0" style="-fx-background-color: #FFF0F0;">
+         <children>
+            <Label fx:id="html2" layoutX="9.0" layoutY="15.0" prefHeight="20.0" prefWidth="50.0" text="&lt;html&gt;" textFill="#708cff">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="hhtml2" layoutX="9.0" layoutY="223.0" prefHeight="22.0" prefWidth="50.0" text="&lt;/html&gt;" textFill="#708cff">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="head2" layoutX="20.0" layoutY="27.0" prefHeight="22.0" prefWidth="50.0" text="&lt;head&gt;" textFill="#b17327">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="hhead2" layoutX="20.0" layoutY="54.0" prefHeight="22.0" prefWidth="50.0" text="&lt;/head&gt;" textFill="#b17327">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="title2" layoutX="50.0" layoutY="43.0" prefHeight="22.0" prefWidth="137.0" text="&lt;title&gt; YOU CAN DO IT &lt;/title&gt; " textFill="#28b081">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Text fill="#ff3535" layoutX="9.0" layoutY="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;!DOCTYPE html&gt;">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Text>
+            <Label fx:id="body1" layoutX="24.0" layoutY="69.0" prefHeight="22.0" prefWidth="43.0" text="&lt;body&gt;" textFill="#6b0f0f" visible="false">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="h1" layoutX="44.0" layoutY="87.0" prefHeight="22.0" prefWidth="148.0" text="&lt;h1&gt;             LEVEL2               &lt;/h1&gt; " textFill="#2845b0" visible="false">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="ol" layoutX="45.0" layoutY="104.0" prefHeight="22.0" prefWidth="43.0" text="&lt;ol&gt;" textFill="#8328b0" visible="false">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="li" layoutX="53.0" layoutY="122.0" prefHeight="22.0" prefWidth="172.0" text="&lt;li&gt; i love html language&lt;/li&gt;" textFill="#28b0ac" visible="false">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="ol2" layoutX="47.0" layoutY="155.0" prefHeight="22.0" prefWidth="42.0" text="&lt;/ol&gt;" textFill="#8328b0" visible="false">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            
+            <Label fx:id="body2" layoutX="25.0" layoutY="209.0" prefHeight="22.0" prefWidth="42.0" text="&lt;/body&gt;" textFill="#6b0f0f" visible="false">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="label2" layoutX="60.0" layoutY="172.0" prefHeight="22.0" prefWidth="141.0" text="&lt;label&gt;                           &lt;/label&gt;" textFill="#aca708" visible="false">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="textarea1" layoutX="57.0" layoutY="188.0" prefHeight="22.0" prefWidth="52.0" text="&lt;textarea&gt;" textFill="#a35737" visible="false">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="52.0" fitWidth="62.0" layoutX="158.0" layoutY="-29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@WordSeachLogo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fitHeight="82.0" fitWidth="98.0" layoutX="249.0" layoutY="433.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@result.png" />
+         </image>
+      </ImageView>
+      <GridPane alignment="CENTER" layoutX="44.0" layoutY="56.0" prefHeight="392.0" prefWidth="314.0" vgap="1.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="60.0" />
+          <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="btn144" mnemonicParsing="false" onAction="#h1line2" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="1" textFill="#ba174d" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn133" mnemonicParsing="false" onAction="#h1line1" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="H" textFill="#ba174d" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn22" mnemonicParsing="false" onAction="#labelline2" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="A" textFill="#ba174d" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn33" mnemonicParsing="false" onAction="#labelline3" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="B" textFill="#ba174d" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn44" mnemonicParsing="false" onAction="#labelline4" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="E" textFill="#ba174d" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn55" mnemonicParsing="false" onAction="#labelline5" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="L" textFill="#ba174d" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn66" mnemonicParsing="false" onAction="#textarealine1" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="T" textFill="#ba174d" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn77" mnemonicParsing="false" onAction="#olline1" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="O" textFill="#ba174d" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn88" mnemonicParsing="false" onAction="#olline2" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="L" textFill="#ba174d" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn99" mnemonicParsing="false" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="Q" textFill="#ba174d" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn122" alignment="CENTER" mnemonicParsing="false" onAction="#textarealine2" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="E" textFill="#ba174d" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn111" mnemonicParsing="false" onAction="#liline1" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="L" textFill="#ba174d" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn100" mnemonicParsing="false" onAction="#textarealine8" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="A" textFill="#ba174d" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn11" mnemonicParsing="false" onAction="#labelline1" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="L" textFill="#ba174d" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn24" mnemonicParsing="false" onAction="#textarealine4" prefHeight="65.0" prefWidth="51.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="T" textFill="#ba174d" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn23" mnemonicParsing="false" onAction="#textarealine5" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="A" textFill="#ba174d" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn222" mnemonicParsing="false" onAction="#textarealine6" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="R" textFill="#ba174d" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn21" mnemonicParsing="false" onAction="#bodyline2" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="O" textFill="#ba174d" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn20" mnemonicParsing="false" onAction="#bodyline3" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="D" textFill="#ba174d" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn19" mnemonicParsing="false" onAction="#bodyline4" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="Y" textFill="#ba174d" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn18" mnemonicParsing="false" onAction="#textarealine3" prefHeight="65.0" prefWidth="52.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="X" textFill="#ba174d" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn17" mnemonicParsing="false" onAction="#liline2" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="I" textFill="#ba174d" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn166" mnemonicParsing="false" onAction="#textarealine7" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="E" textFill="#ba174d" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="btn155" mnemonicParsing="false" onAction="#bodyline1" prefHeight="65.0" prefWidth="54.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="B" textFill="#ba174d" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="1.0" />
+               </GridPane.margin>
+            </Button>
+         </children>
+      </GridPane>
+      <Line fx:id="line11_l" endX="68.66668701171875" endY="51.00001525878906" layoutX="14.0" layoutY="109.0" opacity="0.3" startX="55.49999237060547" startY="51.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line11_a" endX="-22.333343505859375" endY="129.00001525878906" layoutX="145.0" layoutY="31.0" opacity="0.3" startX="-47.666656494140625" startY="129.00001525878906" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line11_b" endX="150.66665649414062" endY="60.00001525878906" layoutX="24.0" layoutY="100.0" opacity="0.3" startX="113.33334350585938" startY="60.00001525878906" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line11_e" endX="202.0" endY="16.000015258789062" layoutX="24.0" layoutY="144.0" opacity="0.3" startX="165.3333740234375" startY="16.000015258789062" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line11_l1" endX="255.33331298828125" endY="47.00001525878906" layoutX="24.0" layoutY="113.0" opacity="0.3" startX="216.66668701171875" startY="47.00001525878906" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line22_e" endX="301.0" endY="112.33332824707031" layoutX="31.0" layoutY="109.0" opacity="0.3" startX="301.0" startY="89.66667175292969" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line22_t" endX="301.00006103515625" endY="92.00001525878906" layoutX="31.0" layoutY="92.0" opacity="0.3" startX="301.0000305175781" startY="68.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line22_x" endX="308.0" endY="164.0" layoutX="24.0" layoutY="120.0" opacity="0.3" startX="308.0" startY="116.00001525878906" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line22_tt" endX="308.33331298828125" endY="244.0" layoutX="24.0" layoutY="100.0" opacity="0.3" startX="308.33331298828125" startY="198.66665649414062" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line22_a" endX="248.33331298828125" endY="-55.0" layoutX="31.0" layoutY="399.0" opacity="0.3" startX="286.3333740234375" startY="-55.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line22_r" endX="195.66668701171875" endY="-30.0" layoutX="31.0" layoutY="374.0" opacity="0.3" startX="233.66668701171875" startY="-30.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line22_ee" endX="202.66668701171875" endY="172.66665649414062" layoutX="24.0" layoutY="110.0" opacity="0.3" startX="202.66668701171875" startY="218.66665649414062" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line22_aa" endX="202.83331298828125" endY="167.0" layoutX="24.0" layoutY="101.0" opacity="0.3" startX="202.8333282470703" startY="122.33332824707031" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line66_l" endX="-179.6666259765625" endY="144.6666717529297" layoutX="459.0" layoutY="100.0" opacity="0.3" startX="-179.6666259765625" startY="120.00001525878906" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line66_i" endX="-119.66668701171875" endY="181.66665649414062" layoutX="399.0" layoutY="101.0" opacity="0.3" startX="-119.66668701171875" startY="158.33331298828125" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line33_b" endX="-224.33334350585938" endY="-86.33334350585938" layoutX="399.0" layoutY="391.0" opacity="0.3" startX="-224.33334350585938" startY="-108.33334350585938" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line33_o" endX="143.66665649414062" endY="-47.0" layoutX="31.0" layoutY="391.0" opacity="0.3" startX="143.66665649414062" startY="-71.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line33_d" endX="101.83332824707031" layoutX="58.0" layoutY="344.0" opacity="0.3" startX="65.83333587646484" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line33_y" endX="108.66668701171875" layoutY="344.0" opacity="0.3" startX="72.49999237060547" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line44_h" endX="149.33334350585938" endY="-6.66668701171875" layoutX="-60.0" layoutY="290.0" opacity="0.3" startX="132.00003051757812" startY="-6.66668701171875" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line44_1" endX="95.00003051757812" endY="0.33331298828125" layoutX="31.0" layoutY="283.0" opacity="0.3" startX="73.66668701171875" startY="0.33331298828125" stroke="#ba174d" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line55_o" endX="233.8333740234375" endY="-6.6666717529296875" layoutX="-145.0" layoutY="227.0" opacity="0.3" startX="215.3934326171875" startY="-6.6666717529296875" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line55_l" endX="184.1667022705078" endY="0.3333282470703125" layoutX="-54.0" layoutY="220.0" opacity="0.3" startX="157.50003051757812" startY="0.3333282470703125" stroke="#ba174d" strokeWidth="15.0" visible="false" />
+      <Label fx:id="ttextarea1" layoutX="536.0" layoutY="311.0" prefHeight="22.0" prefWidth="59.0" text="&lt;/textarea&gt;" textFill="#a35737" visible="false">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Button layoutX="474.0" layoutY="435.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="82.0" />
+      <ImageView fitHeight="66.0" fitWidth="84.0" layoutX="474.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@finish_1.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="474.0" layoutY="433.0" mnemonicParsing="false" onAction="#lvl2WordSearchFinishBtn" opacity="0.08" prefHeight="32.0" prefWidth="82.0" />
+      <Label fx:id="scorelvl2" layoutX="350.0" layoutY="427.0" prefHeight="32.0" prefWidth="54.0" textFill="#77c0aa">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <ImageView fitHeight="292.0" fitWidth="292.0" layoutX="157.0" layoutY="-107.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@WordSeach.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="86.0" layoutX="263.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@OctoCodeLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="97.0" fitWidth="116.0" layoutX="423.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Score.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="score_label_level_page" layoutX="531.0" layoutY="26.0" prefHeight="45.0" prefWidth="61.0" textFill="#ffce38">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="81.0" fitWidth="97.0" layoutX="50.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@level.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="level_label_level_page" layoutX="150.0" layoutY="24.0" prefHeight="45.0" prefWidth="61.0" textFill="#ffce38">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="32.0" fitWidth="43.0" layoutX="125.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@backIcon.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="124.0" layoutY="428.0" mnemonicParsing="false" onAction="#lvl2WordSearchBackBtn" opacity="0.02" prefHeight="45.0" prefWidth="50.0" text="Button" />
+</children>
+</AnchorPane>

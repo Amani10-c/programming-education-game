@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #F6E0E0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project_.Controller_word_search_lv1">
+   <children>
+      <ImageView fitHeight="87.0" fitWidth="103.0" layoutX="14.0" layoutY="399.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cubes.png" />
+         </image>
+      </ImageView>
+      <GridPane alignment="TOP_CENTER" centerShape="false" layoutX="17.0" layoutY="120.0" prefHeight="245.0" prefWidth="345.0" scaleShape="false">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints />
+          <RowConstraints />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="btn1" mnemonicParsing="false" onAction="#headline1" prefHeight="65.0" prefWidth="200.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="H" textFill="#ba174d" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn2" mnemonicParsing="false" onAction="#headline2" prefHeight="65.0" prefWidth="92.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="E" textFill="#ba174d" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn5" mnemonicParsing="false" prefHeight="65.0" prefWidth="92.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="S" textFill="#ba174d" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn3" mnemonicParsing="false" onAction="#headline3" prefHeight="65.0" prefWidth="92.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="A" textFill="#ba174d" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn4" alignment="CENTER" mnemonicParsing="false" onAction="#titleline1" prefHeight="65.0" prefWidth="92.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="T" textFill="#ba174d" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn6" mnemonicParsing="false" onAction="#htmlline1" prefHeight="65.0" prefWidth="92.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="H" textFill="#ba174d" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn7" mnemonicParsing="false" onAction="#headline4" prefHeight="65.0" prefWidth="92.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="D" textFill="#ba174d" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn8" mnemonicParsing="false" onAction="#titleline2" prefHeight="65.0" prefWidth="92.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="I" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn13" mnemonicParsing="false" onAction="#htmlline4" prefHeight="65.0" prefWidth="92.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="L" textFill="#ba174d" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn14" mnemonicParsing="false" prefHeight="65.0" prefWidth="92.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="R" textFill="#ba174d" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn11" mnemonicParsing="false" prefHeight="65.0" prefWidth="92.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="O" textFill="#ba174d" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn9" mnemonicParsing="false" onAction="#htmlline3" prefHeight="65.0" prefWidth="92.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="M" textFill="#ba174d" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn10" mnemonicParsing="false" onAction="#htmlline2" prefHeight="65.0" prefWidth="92.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="T" textFill="#ba174d" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn12" mnemonicParsing="false" onAction="#titleline3" prefHeight="65.0" prefWidth="92.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="T" textFill="#ba174d" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn15" mnemonicParsing="false" onAction="#titleline5" prefHeight="65.0" prefWidth="92.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="E" textFill="#ba174d" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn16" mnemonicParsing="false" onAction="#titleline4" prefHeight="65.0" prefWidth="92.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="L" textFill="#ba174d" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Button>
+
+            
+         </children>
+      </GridPane>
+      <Line fx:id="line1_E" endX="329.26666259765625" endY="49.333343505859375" layoutX="-179.0" layoutY="102.0" opacity="0.3" startX="288.5999755859375" startY="49.333343505859375" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line1_H" endX="293.9333190917969" endY="38.333343505859375" layoutX="-239.0" layoutY="113.0" opacity="0.3" startX="333.5999755859375" startY="38.333343505859375" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line1_A" endX="60.99998474121094" endY="158.3333282470703" layoutX="173.0" layoutY="-7.0" opacity="0.3" startX="-7.7333526611328125" startY="158.3333282470703" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line1_D" endX="-169.66664123535156" endY="161.3333282470703" layoutX="403.0" layoutY="56.0" opacity="0.3" startX="-169.66664123535156" startY="110.33332824707031" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line3_t" endX="-149.3333282470703" endY="322.6666564941406" layoutX="294.0" layoutY="-72.0" opacity="0.3" startX="-149.3333282470703" startY="345.8333435058594" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line3_m" endX="24.5999755859375" endY="168.83334350585938" layoutX="105.0" layoutY="105.0" opacity="0.3" startX="-30.90001678466797" startY="168.83334350585938" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line3_l" endX="-45.666683197021484" endY="-121.16665649414062" layoutX="105.0" layoutY="395.0" opacity="0.3" startX="-45.666683197021484" startY="-53.833343505859375" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line3_h" endX="9.666671752929688" endY="140.66665649414062" layoutX="135.0" layoutY="95.0" opacity="0.3" startX="9.666671752929688" startY="116.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line2_l" endX="201.99996948242188" endY="242.83334350585938" layoutX="118.0" layoutY="95.0" opacity="0.3" startX="201.99996948242188" startY="203.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line2_e" endX="121.93330383300781" endY="232.83334350585938" layoutX="110.0" layoutY="105.0" opacity="0.3" startX="195.0999755859375" startY="232.83334350585938" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line2_tt" endX="-132.00003051757812" endY="154.0" layoutX="452.0" layoutY="129.0" opacity="0.3" startX="-132.00003051757812" startY="104.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line2_i" endX="-94.00003051757812" endY="29.0" layoutX="414.0" layoutY="189.0" opacity="0.3" startX="-94.00003051757812" startY="-0.333343505859375" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="line2_t" endX="-252.0" endY="327.0" layoutX="572.0" layoutY="-176.0" opacity="0.3" startX="-252.0" startY="349.66668701171875" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Pane layoutX="372.0" layoutY="119.0" prefHeight="245.0" prefWidth="205.0" style="-fx-background-color: #FFF0F0;">
+         <children>
+            <Label fx:id="html" layoutX="16.0" layoutY="25.0" prefHeight="20.0" prefWidth="44.0" text="&lt;html&gt;" textFill="#708cff" visible="false" />
+            <Label fx:id="hhtml" layoutX="16.0" layoutY="224.0" prefHeight="22.0" prefWidth="50.0" text="&lt;/html&gt;" textFill="#708cff" visible="false" />
+            <Label fx:id="head" layoutX="28.0" layoutY="62.0" prefHeight="22.0" prefWidth="50.0" text="&lt;head&gt;" textFill="#b17327" visible="false" />
+            <Label fx:id="hhead" layoutX="28.0" layoutY="178.0" prefHeight="22.0" prefWidth="50.0" text="&lt;/head&gt;" textFill="#b17327" visible="false" />
+            <Label fx:id="title" layoutX="29.0" layoutY="119.0" prefHeight="22.0" prefWidth="172.0" text="&lt;title&gt;YOU CAN DO IT&lt;/title&gt;" textFill="#28b081" visible="false" />
+            <Text fill="#ff3535" layoutX="17.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;!DOCTYPE html&gt;" />
+            <ImageView fitHeight="52.0" fitWidth="62.0" layoutX="158.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@WordSeachLogo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fitHeight="292.0" fitWidth="292.0" layoutX="155.0" layoutY="-108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@WordSeach.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="82.0" fitWidth="98.0" layoutX="237.0" layoutY="429.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@result.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="475.0" layoutY="431.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="70.0">
+         <effect>
+            <Lighting diffuseConstant="1.07" specularConstant="2.0" specularExponent="15.42" surfaceScale="1.04">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <ImageView fitHeight="66.0" fitWidth="84.0" layoutX="470.0" layoutY="432.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@finish_1.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="475.0" layoutY="432.0" mnemonicParsing="false" onAction="#lvl1WordSearchFinishBtn" opacity="0.09" prefHeight="31.0" prefWidth="70.0">
+         <effect>
+            <Lighting diffuseConstant="1.07" specularConstant="2.0" specularExponent="15.42" surfaceScale="1.04">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Label fx:id="scorelvl1" layoutX="343.0" layoutY="426.0" prefHeight="38.0" prefWidth="44.0" textFill="#77c0aa">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <ImageView fitHeight="66.0" fitWidth="86.0" layoutX="260.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@OctoCodeLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="97.0" fitWidth="116.0" layoutX="412.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Score.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="score_label_level_page" layoutX="526.0" layoutY="25.0" prefHeight="45.0" prefWidth="61.0" textFill="#ffce38">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="81.0" fitWidth="97.0" layoutX="47.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@level.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="level_label_level_page" layoutX="148.0" layoutY="23.0" prefHeight="45.0" prefWidth="61.0" textFill="#ffce38">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="40.0" fitWidth="44.0" layoutX="123.0" layoutY="428.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@backIcon.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="121.0" layoutY="418.0" mnemonicParsing="false" onAction="#lvl1WordSearchBackBtn" opacity="0.01" prefHeight="52.0" prefWidth="52.0" />
+   </children>
+</AnchorPane>

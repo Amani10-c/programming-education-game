@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" layoutX="1.0" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #F6E0E0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project_.Controller_detect_missing_lv1">
+  <children>
+      <Rectangle fx:id="L9" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="22.0" layoutX="279.0" layoutY="329.0" stroke="#e6a45e" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="L8" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="22.0" layoutX="280.0" layoutY="242.0" stroke="#555cc9" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="L7" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="22.0" layoutX="262.0" layoutY="169.0" stroke="#a162b5" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="235.0" layoutX="224.0" layoutY="146.0" stroke="#c36d6a" strokeType="INSIDE" width="287.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="235.0" layoutX="85.0" layoutY="144.0" stroke="#c36d6a" strokeType="INSIDE" width="122.0" />
+      <Button fx:id="L2" layoutX="114.0" layoutY="193.0" mnemonicParsing="false" onMouseDragged="#L2D" style="-fx-background-color: #555cc9;" text="&lt;/head&gt;" textFill="WHITE" />
+      <Button fx:id="L3" layoutX="114.0" layoutY="231.0" mnemonicParsing="false" onMouseDragged="#L3D" style="-fx-background-color: #e6a45e;" text="&lt;/body&gt;" textFill="WHITE" />
+      <Button fx:id="L4" layoutX="114.0" layoutY="340.0" mnemonicParsing="false" onMouseDragged="#L4D" prefHeight="25.0" prefWidth="65.0" style="-fx-background-color: #e6a45e;" text="&lt;body&gt;" textFill="WHITE" />
+      <Button fx:id="L5" layoutX="114.0" layoutY="270.0" mnemonicParsing="false" onMouseDragged="#L5D" prefHeight="25.0" prefWidth="65.0" style="-fx-background-color: #a162b5;" text="&lt;/html&gt;" textFill="WHITE" />
+      <Button fx:id="L6" layoutX="114.0" layoutY="305.0" mnemonicParsing="false" onMouseDragged="#L6D" prefHeight="25.0" prefWidth="64.0" style="-fx-background-color: #555cc9;" text="&lt;head&gt;" textFill="WHITE" />
+      <Button fx:id="L1" layoutX="114.0" layoutY="159.0" mnemonicParsing="false" onMouseDragged="#L1D" prefHeight="25.0" prefWidth="64.0" style="-fx-background-color: #a162b5;" text="&lt;html&gt;" textFill="WHITE" />
+      <Label layoutX="228.0" layoutY="141.0" prefHeight="30.0" prefWidth="133.0" text="&lt;!DOCTYPE html&gt;" textFill="#a64f4f" />
+      <Label layoutX="262.0" layoutY="350.0" prefHeight="22.0" prefWidth="133.0" text="&lt;/html&gt;" textFill="#a162b5" />
+      <Label layoutX="280.0" layoutY="191.0" prefHeight="22.0" prefWidth="43.0" text="&lt;head&gt;" textFill="#555cc9" />
+      <Label layoutX="280.0" layoutY="260.0" prefHeight="22.0" prefWidth="52.0" text="&lt;body&gt;" textFill="#e6a45e" />
+      <Label layoutX="295.0" layoutY="215.0" prefHeight="22.0" prefWidth="43.0" text="&lt;title&gt;" textFill="#28b081" />
+      <Label layoutX="428.0" layoutY="215.0" prefHeight="22.0" prefWidth="43.0" text="&lt;/title&gt;" textFill="#28b081" />
+      <Label layoutX="312.0" layoutY="304.0" prefHeight="22.0" prefWidth="43.0" text="&lt;p&gt;" textFill="#28b081" />
+      <Label layoutX="435.0" layoutY="306.0" prefHeight="22.0" prefWidth="30.0" text="&lt;/p&gt;" textFill="#28b081" />
+      <Label layoutX="313.0" layoutY="283.0" prefHeight="22.0" prefWidth="30.0" text="&lt;h&gt;" textFill="#28b081" />
+      <Label layoutX="435.0" layoutY="284.0" prefHeight="22.0" prefWidth="30.0" text="&lt;/h&gt;" textFill="#28b081" />
+      <ImageView fitHeight="69.0" fitWidth="104.0" layoutX="468.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@detectMissingLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="101.0" layoutX="192.0" layoutY="425.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@result.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="107.0" fitWidth="133.0" layoutX="9.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cubes.png" />
+         </image>
+      </ImageView>
+      <Line endX="-23.000030517578125" endY="156.0" layoutX="285.0" layoutY="205.0" startX="-22.000030517578125" startY="-13.333343505859375" stroke="#beb9b9" />
+      <Line endX="-21.0" endY="28.126617431640625" layoutX="301.0" layoutY="215.0" startX="-21.0" startY="-13.0" stroke="#beb9b9" />
+      <Line endX="-28.33331298828125" endY="156.20797729492188" layoutX="309.0" layoutY="171.0" startX="-28.33331298828125" startY="100.75241088867188" stroke="#beb9b9" />
+      <Line endX="-27.0" endY="134.40673828125" layoutX="340.0" layoutY="181.0" startX="-27.0" startY="113.0" stroke="#beb9b9" />
+      <Button layoutX="450.0" layoutY="420.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="54.0" style="-fx-background-color: #CBCCCB;" />
+      <ImageView fitHeight="56.0" fitWidth="65.0" layoutX="444.0" layoutY="425.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@check.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ch2" layoutX="450.0" layoutY="420.0" mnemonicParsing="false" onAction="#p" opacity="0.06" prefHeight="25.0" prefWidth="54.0" style="-fx-background-color: #CBCCCB;" />
+      <Button layoutX="511.0" layoutY="420.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="54.0" style="-fx-background-color: #CBCCCB;" />
+      <ImageView fitHeight="56.0" fitWidth="65.0" layoutX="506.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@finish_1.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="510.0" layoutY="421.0" mnemonicParsing="false" onAction="#lvl1DetecMissingFinishBtn" opacity="0.06" prefHeight="25.0" prefWidth="54.0" style="-fx-background-color: #CBCCCB;" />
+      <Label fx:id="S1" layoutX="290.0" layoutY="418.0" prefHeight="39.0" prefWidth="43.0" textAlignment="CENTER" textFill="#77c0aa">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="42.0" fitWidth="54.0" layoutX="14.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@backIcon.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="13.0" layoutY="323.0" mnemonicParsing="false" onAction="#lvl1DetecMissingBackBtn" opacity="0.02" prefHeight="56.0" prefWidth="63.0" style="-fx-background-color: #edebeb;" textFill="#edebeb" />
+      <ImageView fitHeight="305.0" fitWidth="375.0" layoutX="121.0" layoutY="-155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@detectMissing.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="108.0" layoutX="246.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@OctoCodeLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="97.0" fitWidth="116.0" layoutX="422.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Score.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="score_label_level_page" layoutX="536.0" layoutY="36.0" prefHeight="45.0" prefWidth="61.0" textFill="#ffce38">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="81.0" fitWidth="97.0" layoutX="57.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@level.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="level_label_level_page" layoutX="159.0" layoutY="39.0" prefHeight="45.0" prefWidth="61.0" textFill="#ffce38">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+         </children>
+</AnchorPane>

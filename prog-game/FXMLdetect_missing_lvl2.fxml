@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F6E0E0;;;;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project_.Controller_detect_missing_lv2">
+    
+ <children>
+      <Rectangle fx:id="L25" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="22.0" layoutX="265.0" layoutY="332.0" stroke="#b16464" strokeType="INSIDE" width="75.0" />
+      <Rectangle fx:id="L23" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="22.0" layoutX="268.0" layoutY="262.0" stroke="#a162b5" strokeType="INSIDE" width="75.0" />
+      <Rectangle fx:id="L24" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="25.0" layoutX="351.0" layoutY="220.0" stroke="#e6a45e" strokeType="INSIDE" width="83.0" />
+      <Rectangle fx:id="L21" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="25.0" layoutX="273.0" layoutY="183.0" stroke="#412caa" strokeType="INSIDE" width="80.0" />
+      <Rectangle fx:id="L22" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="25.0" layoutX="355.0" layoutY="158.0" stroke="#28b081" strokeType="INSIDE" width="75.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="304.0" layoutX="73.0" layoutY="85.0" stroke="#c36d6a" strokeType="INSIDE" width="120.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="304.0" layoutX="213.0" layoutY="85.0" stroke="#c36d6a" strokeType="INSIDE" width="322.0" />
+      <Button fx:id="B2" layoutX="92.0" layoutY="152.0" mnemonicParsing="false" onMouseDragged="#L2D2" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: #412caa;" text="&lt;textarea&gt;" textFill="WHITE" />
+      <Button fx:id="B3" layoutX="92.0" layoutY="200.0" mnemonicParsing="false" onMouseDragged="#L3D2" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: #e6a45e;" text="&lt;/li&gt;" textFill="WHITE" />
+      <Button fx:id="B4" layoutX="93.0" layoutY="348.0" mnemonicParsing="false" onMouseDragged="#L4D2" style="-fx-background-color: #412caa;" text="&lt;/textarea&gt;" textFill="WHITE" />
+      <Button fx:id="B5" layoutX="92.0" layoutY="249.0" mnemonicParsing="false" onMouseDragged="#L5D2" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: #a162b5;" text="&lt;/ol&gt;" textFill="WHITE" />
+      <Button fx:id="B6" layoutX="92.0" layoutY="297.0" mnemonicParsing="false" onMouseDragged="#L6D2" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: #b16464;" text="&lt;/ul&gt;" textFill="WHITE" />
+      <Button fx:id="B1" layoutX="92.0" layoutY="102.0" mnemonicParsing="false" onMouseDragged="#L1D2" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: #28b081;" text="&lt;/label&gt;" textFill="WHITE" />
+      <Label layoutX="225.0" layoutY="85.0" prefHeight="30.0" prefWidth="133.0" text="&lt;!DOCTYPE html&gt;" textFill="#a64f4f" />
+      <Label layoutX="237.0" layoutY="365.0" prefHeight="22.0" prefWidth="133.0" text="&lt;/html&gt;" textFill="#a162b5" />
+      <Label layoutX="244.0" layoutY="127.0" prefHeight="22.0" prefWidth="43.0" text="&lt;head&gt;" textFill="#555cc9" />
+      <Label layoutX="357.0" layoutY="125.0" prefHeight="22.0" prefWidth="59.0" text="&lt;/head&gt;" textFill="#555cc9" />
+      <Label layoutX="246.0" layoutY="143.0" prefHeight="22.0" prefWidth="52.0" text="&lt;body&gt;" textFill="#24b5bf" />
+      <Label layoutX="244.0" layoutY="350.0" prefHeight="22.0" prefWidth="59.0" text="&lt;/body&gt;" textFill="#24b5bf" />
+      <Label layoutX="370.0" layoutY="182.0" prefHeight="22.0" prefWidth="75.0" text="&lt;/textarea&gt;" textFill="#412caa" />
+      <Label layoutX="263.0" layoutY="159.0" prefHeight="22.0" prefWidth="43.0" text="&lt;label&gt;" textFill="#28b081" />
+      <Label layoutX="236.0" layoutY="110.0" prefHeight="15.0" prefWidth="59.0" text="&lt;html&gt;" textFill="#3c4b86" />
+      <ImageView fitHeight="66.0" fitWidth="75.0" layoutX="481.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@detectMissingLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="101.0" layoutX="190.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@result.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="120.0" layoutX="9.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cubes.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="272.0" layoutY="211.0" text="&lt;ol&gt;" textFill="#a162b5" />
+      <Label layoutX="289.0" layoutY="228.0" text="&lt;li&gt;" textFill="#e6a45e" />
+      <Label layoutX="271.0" layoutY="290.0" text="&lt;ul&gt;" textFill="#b16464" />
+      <Label layoutX="291.0" layoutY="308.0" text="&lt;li&gt;" textFill="#e6a45e" />
+      <Label layoutX="350.0" layoutY="308.0" text="&lt;/li&gt;" textFill="#e6a45e" />
+      <Line endX="-99.99998474121094" endY="255.99996948242188" layoutX="337.0" layoutY="120.0" startX="-100.0" stroke="#e2dbdb" />
+      <Line endX="-98.99996948242188" endY="161.0" layoutX="362.0" layoutY="172.0" startX="-98.99996948242188" startY="-2.0000152587890625" stroke="#e2dbdb" />
+      <Line endX="-109.33335876464844" endY="424.66668701171875" layoutX="359.0" layoutY="-63.0" startX="-109.33335876464844" startY="219.99998474121094" stroke="#e2dbdb" />
+      <ImageView fitHeight="52.0" fitWidth="49.0" layoutX="9.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@backIcon.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="445.0" layoutY="409.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" style="-fx-background-color: #CBCCCB;" />
+      <Button layoutX="518.0" layoutY="409.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" style="-fx-background-color: #CBCCCB;" />
+      <ImageView fitHeight="52.0" fitWidth="69.0" layoutX="443.0" layoutY="414.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@check.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="52.0" fitWidth="69.0" layoutX="517.0" layoutY="414.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@finish_1.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ch1" layoutX="445.0" layoutY="409.0" mnemonicParsing="false" onAction="#p2" opacity="0.07" prefHeight="25.0" prefWidth="59.0" style="-fx-background-color: #CBCCCB;" />
+      <Button layoutX="518.0" layoutY="409.0" mnemonicParsing="false" onAction="#lvl2DetecMissingFinishBtn" opacity="0.08" prefHeight="25.0" prefWidth="59.0" style="-fx-background-color: #CBCCCB;" />
+      <Label fx:id="S21" layoutX="288.0" layoutY="420.0" prefHeight="30.0" prefWidth="52.0" textFill="#77c0aa">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Line endX="-98.99996948242188" endY="79.0" layoutX="372.0" layoutY="182.0" startX="-98.99996948242188" startY="40.33332824707031" stroke="#e2dbdb" />
+      <Line endX="-108.66665649414062" endY="137.0" layoutX="382.0" layoutY="192.0" startX="-108.66665649414062" startY="113.0" stroke="#e2dbdb" />
+      <Button layoutX="8.0" layoutY="338.0" mnemonicParsing="false" onAction="#lvl2DetecMissingBackBtn" opacity="0.05" prefHeight="52.0" prefWidth="59.0" />
+      <ImageView fitHeight="222.0" fitWidth="271.0" layoutX="170.0" layoutY="-126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@detectMissing.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="75.0" layoutX="268.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@OctoCodeLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="97.0" layoutX="424.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Score.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="score_label_level_page" layoutX="515.0" layoutY="14.0" prefHeight="45.0" prefWidth="61.0" textFill="#ffce38">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="57.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@level.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="level_label_level_page" layoutX="149.0" layoutY="14.0" prefHeight="45.0" prefWidth="61.0" textFill="#ffce38">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+         </children>
+</AnchorPane>

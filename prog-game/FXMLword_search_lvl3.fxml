@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #F6E0E0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ap_project_.Controller_word_search_lv3">
+    
+<children>
+      <ImageView fitHeight="87.0" fitWidth="103.0" layoutX="24.0" layoutY="399.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cubes.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="382.0" layoutY="129.0" prefHeight="260.0" prefWidth="205.0" style="-fx-background-color: #FFF0F0;">
+         <children>
+            <Label fx:id="html3" layoutX="7.0" layoutY="15.0" prefHeight="20.0" prefWidth="50.0" text="&lt;html&gt;" textFill="#708cff">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="hhtml3" layoutX="5.0" layoutY="239.0" prefHeight="22.0" prefWidth="50.0" text="&lt;/html&gt;" textFill="#708cff">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="head3" layoutX="18.0" layoutY="30.0" prefHeight="22.0" prefWidth="50.0" text="&lt;head&gt;" textFill="#b17327">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="hhead3" layoutX="18.0" layoutY="54.0" prefHeight="22.0" prefWidth="50.0" text="&lt;/head&gt;" textFill="#b17327">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="title3" layoutX="26.0" layoutY="43.0" prefHeight="22.0" prefWidth="172.0" text="&lt;title&gt;YOU CAN DO IT&lt;/title&gt;" textFill="#28b081">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Text fill="#ff3535" layoutX="7.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;!DOCTYPE html&gt;">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Text>
+            <Label fx:id="html31" layoutX="14.0" layoutY="223.0" prefHeight="20.0" prefWidth="50.0" text="&lt;/body&gt;" textFill="#9e28b0">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="select1" layoutX="68.0" layoutY="134.0" prefHeight="22.0" prefWidth="50.0" text="&lt;select&gt;" textFill="#f67f16" visible="false">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="head31" layoutX="14.0" layoutY="76.0" prefHeight="22.0" prefWidth="50.0" text="&lt;body&gt;" textFill="#9e28b0">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="legend" layoutX="57.0" layoutY="120.0" prefHeight="22.0" prefWidth="162.0" text="&lt;legend&gt;                      &lt;/legend&gt;" textFill="#e0477a" visible="false">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="form1" layoutX="23.0" layoutY="90.0" prefHeight="22.0" prefWidth="39.0" text="&lt;form&gt;" textFill="#b03428" visible="false">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="select2" layoutX="75.0" layoutY="185.0" prefHeight="22.0" prefWidth="50.0" text="&lt;/select&gt;" textFill="#f67f16" visible="false">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="option2" layoutX="86.0" layoutY="168.0" prefHeight="22.0" prefWidth="162.0" text="&lt;option&gt;              &lt;/option&gt;" textFill="#1185a6" visible="false">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="option1" layoutX="84.0" layoutY="150.0" prefHeight="22.0" prefWidth="162.0" text="&lt;option&gt;              &lt;/option&gt;" textFill="#1185a6" visible="false">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="fieldset2" layoutX="52.0" layoutY="197.0" prefHeight="22.0" prefWidth="50.0" text="&lt;/fieldset&gt;" textFill="#647247" visible="false">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="fieldset1" layoutX="38.0" layoutY="106.0" prefHeight="22.0" prefWidth="50.0" text="&lt;fieldset&gt;" textFill="#647247" visible="false">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="form2" layoutX="27.0" layoutY="208.0" prefHeight="22.0" prefWidth="40.0" text="&lt;/form&gt;" textFill="#b03428" visible="false">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="52.0" fitWidth="62.0" layoutX="156.0" layoutY="-26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@WordSeachLogo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fitHeight="82.0" fitWidth="98.0" layoutX="235.0" layoutY="433.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@result.png" />
+         </image>
+      </ImageView>
+      <GridPane layoutX="32.0" layoutY="129.0" prefHeight="260.0" prefWidth="325.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="btn_1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#form2" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="O" textAlignment="CENTER" textFill="#ba174d" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#form3" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="R" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_4" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#fieldset1" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="F" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_6" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#form1" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="F" textAlignment="CENTER" textFill="#ba174d" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_7" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#select6" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="T" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_9" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#legend1" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="L" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_11" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#option1" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="O" textAlignment="CENTER" textFill="#ba174d" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_12" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#select5" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="C" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_14" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#legend2" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="E" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#form4" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="M" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_8" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#select1" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="S" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_13" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#select2" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="E" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_5" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#fieldset2" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="I" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_10" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#fieldset3" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="E" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_15" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#fieldset4" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="L" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_16" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#option2" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="P" textAlignment="CENTER" textFill="#ba174d" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_17" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#select4" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="E" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_18" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#select3" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="L" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_19" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#legend3" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="G" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_20" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#fieldset5" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="D" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_21" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#option3" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="T" textAlignment="CENTER" textFill="#ba174d" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_22" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#option6" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="N" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_23" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#legend5" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="N" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_24" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#legend4" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="E" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_25" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#fieldset6" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="S" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_26" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#option4" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="I" textAlignment="CENTER" textFill="#ba174d" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_27" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#option5" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="O" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_28" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#legend6" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="D" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_29" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#fieldset8" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="T" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_30" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#fieldset7" prefHeight="57.0" prefWidth="65.0" style="-fx-background-color: #A8E8D5; -fx-border-color: #f6e0e0;" text="E" textAlignment="CENTER" textFill="#ba174d" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+           <!-- <Line endX="10.266647338867188" endY="126.0" opacity="0.3" startX="10.266647338867188" startY="32.66667175292969" stroke="#f24e6e" strokeWidth="15.0" GridPane.columnIndex="1" GridPane.rowIndex="-1" />
+            <Line endX="10.266647338867188" endY="126.0" layoutX="121.0" layoutY="63.0" opacity="0.3" startX="10.266647338867188" startY="32.66667175292969" stroke="#f24e6e" strokeWidth="15.0" GridPane.columnIndex="1" GridPane.rowIndex="-1" />
+        --> </children>
+      </GridPane>
+      <Line fx:id="Lform2" endX="-28.333335876464844" endY="51.0" layoutX="93.0" layoutY="100.0" opacity="0.3" startX="-28.333335876464844" startY="66.5" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Lform4" endX="106.93330383300781" endY="43.0" layoutX="93.0" layoutY="108.0" opacity="0.3" startX="52.766632080078125" startY="43.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Lform3" endX="3.8333282470703125" endY="34.0" layoutX="127.0" layoutY="117.0" opacity="0.3" startX="-47.4000244140625" startY="34.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Lfieldset1" endX="-48.066680908203125" endY="63.0" layoutX="332.0" layoutY="89.0" opacity="0.3" startX="-73.39999389648438" startY="63.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Lfieldset3" endX="-23.733367919921875" endY="90.33332824707031" layoutX="347.0" layoutY="107.0" opacity="0.3" startX="-23.733367919921875" startY="60.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Lfieldset4" endX="-8.733367919921875" endY="123.66667175292969" layoutX="332.0" layoutY="117.0" opacity="0.3" startX="-8.733367919921875" startY="95.33332824707031" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Lform1" endX="-44.333335876464844" endY="93.5" layoutX="109.0" layoutY="88.0" opacity="0.3" startX="-44.333335876464844" startY="107.00001525878906" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Lfieldset6" endX="1.266632080078125" endY="288.33331298828125" layoutX="322.0" layoutY="37.0" opacity="0.3" startX="1.266632080078125" startY="260.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Lfieldset7" endX="-13.733367919921875" endY="295.0" layoutX="337.0" layoutY="73.0" opacity="0.3" startX="-13.733367919921875" startY="267.3333435058594" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Lselect3" endX="-46.73338317871094" endY="332.8333435058594" layoutX="241.0" layoutY="-67.0" opacity="0.3" startX="-46.73338317871094" startY="349.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Lfieldset8" endX="-196.73333740234375" endY="33.0" layoutX="456.0" layoutY="335.0" opacity="0.3" startX="-147.73336791992188" startY="33.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Lselect1" endX="-65.73338317871094" endY="256.5" layoutX="260.0" layoutY="-48.0" opacity="0.3" startX="-65.73338317871094" startY="242.00001525878906" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Lfieldset5" endX="-68.73336791992188" endY="62.0" layoutX="392.0" layoutY="220.0" opacity="0.3" startX="-68.73336791992188" startY="35.666656494140625" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Loption3" endX="6.599983215332031" endY="218.33334350585938" layoutX="58.0" layoutY="78.0" opacity="0.3" startX="6.599983215332031" startY="247.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Lselect2" endX="-43.73338317871094" endY="155.5" layoutX="238.0" layoutY="68.0" opacity="0.3" startX="-43.73338317871094" startY="182.8333282470703" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Lselect4" endX="-212.7333526611328" endY="34.0" layoutX="392.0" layoutY="248.0" opacity="0.3" startX="-261.73333740234375" startY="34.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Loption2" endX="6.599983215332031" endY="187.66665649414062" layoutX="58.0" layoutY="79.0" opacity="0.3" startX="6.666664123535156" startY="202.33334350585938" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Loption1" endX="6.599983215332031" endY="172.66665649414062" layoutX="58.0" layoutY="79.0" opacity="0.3" startX="6.599983215332031" startY="157.33334350585938" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Loption4" endX="6.599983215332031" endY="281.8333435058594" layoutX="58.0" layoutY="86.0" opacity="0.3" startX="6.599983215332031" startY="254.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Llegend6" endX="162.76661682128906" endY="550.5555419921875" layoutX="31.0" layoutY="-181.0" opacity="0.3" startX="162.76661682128906" startY="520.6666259765625" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Loption5" endX="26.766632080078125" endY="283.8333435058594" layoutX="102.0" layoutY="84.0" opacity="0.3" startX="-22.40003204345703" startY="283.8333435058594" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Loption6" endX="8.766616821289062" endY="376.8333435058594" layoutX="120.0" layoutY="-24.0" opacity="0.3" startX="8.766616821289062" startY="346.5" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Lfieldset2" endX="-101.73336791992188" endY="63.0" layoutX="425.0" layoutY="89.0" opacity="0.3" startX="-126.06668090820312" startY="63.0" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Llegend1" endX="-23.7333984375" endY="149.5" layoutX="283.0" layoutY="59.0" opacity="0.3" startX="-23.7333984375" startY="136.33334350585938" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Llegend2" endX="-8.7333984375" endY="182.6666717529297" layoutX="268.0" layoutY="69.0" opacity="0.3" startX="-8.7333984375" startY="154.5" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Llegend4" endX="1.2666015625" endY="335.6666564941406" layoutX="258.0" layoutY="-11.0" opacity="0.3" startX="1.2666015625" startY="320.5" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Llegend3" endX="-68.7333984375" endY="122.4444580078125" layoutX="328.0" layoutY="172.0" opacity="0.3" startX="-68.7333984375" startY="94.66665649414062" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Llegend5" endX="-410.23333740234375" endY="31.666656494140625" layoutX="604.0" layoutY="293.0" opacity="0.3" startX="-359.7333679199219" startY="31.666656494140625" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Lselect5" endX="10.266647338867188" endY="180.0" layoutX="120.0" layoutY="87.0" opacity="0.3" startX="10.266647338867188" startY="138.5" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Line fx:id="Lselect6" endX="10.266647338867188" endY="117.5" layoutX="120.0" layoutY="93.0" opacity="0.3" startX="10.266647338867188" startY="100.66667175292969" stroke="#f24e6e" strokeWidth="15.0" visible="false" />
+      <Button layoutX="473.0" layoutY="434.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="73.0" />
+      <ImageView fitHeight="82.0" fitWidth="82.0" layoutX="469.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@finish_1.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="473.0" layoutY="434.0" mnemonicParsing="false" onAction="#lvl3WordSearchFinishBtn" opacity="0.07" prefHeight="32.0" prefWidth="73.0" />
+      <Label fx:id="scorelvl3" layoutX="337.0" layoutY="428.0" prefHeight="41.0" prefWidth="50.0" textFill="#77c0aa">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <ImageView fitHeight="292.0" fitWidth="292.0" layoutX="154.0" layoutY="-106.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@WordSeach.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="86.0" layoutX="260.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@OctoCodeLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="97.0" fitWidth="116.0" layoutX="422.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Score.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="score_label_level_page" layoutX="534.0" layoutY="24.0" prefHeight="45.0" prefWidth="61.0" textFill="#ffce38">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="81.0" fitWidth="97.0" layoutX="47.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@level.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="level_label_level_page" layoutX="151.0" layoutY="24.0" prefHeight="45.0" prefWidth="61.0" textFill="#ffce38">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="45.0" fitWidth="40.0" layoutX="131.0" layoutY="433.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@backIcon.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="127.0" layoutY="429.0" mnemonicParsing="false" opacity="0.02" prefHeight="45.0" prefWidth="50.0" text="Button" />
+   </children>
+</AnchorPane>
